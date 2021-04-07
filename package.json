@@ -1,6 +1,6 @@
 {
   "name": "google-meet-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open a Google Meet in the default browser",
   "bin": {
     "meet": "cli.js"
@@ -9,7 +9,8 @@
     "test": "jest"
   },
   "files": [
-    "cli.js"
+    "cli.js",
+    "lib.js"
   ],
   "repository": {
     "type": "git",
