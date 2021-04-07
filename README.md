@@ -19,10 +19,9 @@ npm install google-meet-cli -g
 ```
 $ meet --help
 	Usage
-	  $ meet <name>
+	  $ meet <room-name>
 
 	Options
-	  --name, -n  Give the Meet room a name
 	  --user, -u  If you've multiple google accounts you may want to pass which user you want to create a new room.
 
 	Examples

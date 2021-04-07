@@ -7,7 +7,7 @@ const { generateMeetRoomUrl } = require('./lib');
 const cli = meow(
   `
 	Usage
-	  $ meet <name>
+	  $ meet <room-name>
 
 	Options
 	  --user, -u  If you've multiple google accounts you may want to pass which user you want to create a new room.

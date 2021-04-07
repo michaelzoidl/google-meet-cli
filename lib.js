@@ -11,9 +11,9 @@ const generateMeetRoomUrl = (props) => {
     return `https://meet.google.com/new?authuser=${authuser}`;
   }
 
-  if (!name) return 'https://meet.google.com/new';
+  if (name) return `https://meet.google.com/lookup/${slugify(name)}`;
 
-  return `https://meet.google.com/lookup/${slugify(name)}`;
+  return 'https://meet.google.com/new';
 };
 
 module.exports = {
