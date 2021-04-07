@@ -8,6 +8,12 @@
 - Supports multiple google accounts
 - Works also without any input
 
+### Install
+
+```
+npm install google-meet-cli -g
+```
+
 ### Usage
 
 ```
